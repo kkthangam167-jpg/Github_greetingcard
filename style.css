@@ -1,0 +1,65 @@
+body{
+    background: linear-gradient(to right,#ffe6f0,#fff9e6);
+    text-align:center;
+    font-family:Arial, sans-serif;
+    padding:30px;
+}
+
+/* Main Heading */
+
+#main-title{
+    color:crimson;
+    font-size:50px;
+    transition:0.5s;
+}
+
+/* Image */
+
+img{
+    width:350px;
+    border-radius:20px;
+    box-shadow:0px 0px 15px gray;
+    margin:20px;
+}
+
+/* Sub Heading */
+
+#sub-title{
+    color:darkorange;
+    font-size:35px;
+    transition:0.5s;
+}
+
+/* Paragraph */
+
+#text{
+    color:brown;
+    font-size:24px;
+    line-height:40px;
+    transition:0.5s;
+}
+
+/* Buttons */
+
+button{
+    padding:15px 30px;
+    margin:15px;
+    font-size:20px;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+    color:white;
+    transition:0.5s;
+}
+
+#colorBtn{
+    background:deeppink;
+}
+
+#fontBtn{
+    background:royalblue;
+}
+
+button:hover{
+    transform:scale(1.1);
+}
